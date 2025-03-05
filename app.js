@@ -1,1 +1,3 @@
-alert("Hello Wold");
+function menuClick(x) {
+    x.classList.toggle("change");
+  }
