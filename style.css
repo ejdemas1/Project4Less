@@ -57,8 +57,7 @@ body {
 
 .nav-list li {
     display: inline-block;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-left: 50px;
 }
 
 .nav-list li a {
@@ -147,6 +146,32 @@ body {
 /* About us */
 .about-container {
     /* background-color: #EAE6DA; */
+    padding-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 90vw;
+    color: #EAE6DA;
+}
+
+.about-container h2 {
+    margin-left: 10%;
+    font-size: 3vw;
+}
+
+.about-container p {
+    font-size: 1vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Keep in touch */
+.keep-container {
+    /* background-color: #EAE6DA; */
     padding-top: 6vh;
     display: flex;
     flex-direction: column;
@@ -160,11 +185,28 @@ body {
     font-size: 3vw;
 }
 
-.about-container h2 {
+.keep-container h2 {
     margin-left: 10%;
+    font-size: 3vw;
 }
 
-.about-container p {
-    font-size: 1vw;
-    margin-left: 10%;
+/* Team */
+.title {
+    color: #EAE6DA;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 3vw;
+}
+
+/* Get involved */
+.get-container {
+    background-color: #EAE6DA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
+    max-width: 10vw;
 }
